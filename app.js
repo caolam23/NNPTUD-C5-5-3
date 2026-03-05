@@ -23,6 +23,7 @@ app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/api/v1/products', require('./routes/products'))
 app.use('/api/v1/categories', require('./routes/categories'))
+app.use('/api/v1/roles', require('./routes/roles'))
 
 
 // catch 404 and forward to error handler
